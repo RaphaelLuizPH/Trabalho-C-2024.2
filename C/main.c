@@ -1,30 +1,48 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 #include "remove.h.c"
 
-void decode_message(int b, char *hex_message) {
-    int i = 0;
-    while (hex_message[i] != '\0' && hex_message[i] != '0' && hex_message[i + 1] != '0') {
-        int x = i / 2 + 1;
-        int val = func_val(x, b);
-        if (val != 0) {
-            char hex[3] = {hex_message[i], hex_message[i + 1], '\0'};
-            int decimal = (int)strtol(hex, NULL, 16);
-            printf("%c", decimal);
+void decodificar(char *mensagem, int b) {
+    int x = 1;
+    for (int i = 0; mensagem[i] != '\0'; i += 2) {
+        char hex[3] = {mensagem[i], mensagem[i + 1], '\0'};
+        int decimal = (int)strtol(hex, NULL, 16);
+
+        if (func_val(x, b) != 0 && decimal != 0) {
+            /// Condiçóes para verificar se o caractere é válido
+            if (decimal > 64 && decimal < 91) {
+                printf("%c", decimal);
+                //printf(" (%d)", decimal);
+
+            } else if (decimal > 128 && decimal < 155) {
+                printf("%c", decimal);
+                //printf(" (%d)", decimal);
+            } else if (decimal > 96 && decimal < 123 || decimal == 198) {
+                printf("%c", decimal);
+                //printf(" (%d)", decimal);
+            } else if (decimal == 32) {
+                printf("%c", decimal);
+            }
         }
-        i += 2;
+        x++;
     }
     printf("\n");
 }
 
 int main() {
-    int num_cases, b;
 
-    scanf("%d", &num_cases);
-    for (int i = 0; i < num_cases; i++) {
-        char hex_message[101];
-        scanf("%d %s", &b, hex_message);
-        decode_message(b, hex_message);
+
+
+    int casos, b;
+    char mensagem[101];
+
+
+    scanf("%d", &casos);
+    for (int i = 0; i <= casos; i++) {
+        scanf("%d", &b);
+        scanf("%s", mensagem);
+        decodificar(mensagem, b);
     }
 
     return 0;
