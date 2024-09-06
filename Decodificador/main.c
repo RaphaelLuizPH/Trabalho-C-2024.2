@@ -31,15 +31,17 @@ void decodificar(char *mensagem, int b) {
 
 int main() {
 
-
+    /// Não troquem o LOCALE do arquivo, vai quebrar o codigo!!!
 
     int casos, b;
     char mensagem[101];
 
-
+    printf("Quantas mensagens interceptadas: \n");
     scanf("%d", &casos);
-    for (int i = 0; i <= casos; i++) {
+    for (int i = 0; i < casos; i++) {
+        printf("Digito da variavel b: \n");
         scanf("%d", &b);
+        printf("Mensagem codificada: \n");
         scanf("%s", mensagem);
         decodificar(mensagem, b);
     }

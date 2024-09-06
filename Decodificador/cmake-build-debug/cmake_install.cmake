@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/C
+# Install script for directory: C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/Decodificador
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/Decodificador/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
