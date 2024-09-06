@@ -1,0 +1,3 @@
+C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/calculadora de notas/cmake-build-debug/CMakeFiles/untitled1.dir
+C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/calculadora de notas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/calculadora de notas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
