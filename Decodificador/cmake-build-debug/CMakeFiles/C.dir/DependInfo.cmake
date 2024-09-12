@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/Decodificador/main.c" "CMakeFiles/C.dir/main.c.obj" "gcc" "CMakeFiles/C.dir/main.c.obj.d"
   "C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/Decodificador/remove.c" "CMakeFiles/C.dir/remove.c.obj" "gcc" "CMakeFiles/C.dir/remove.c.obj.d"
-  "C:/Users/biosh/OneDrive/Documents/GitHub/Trabalho-C-2024.2/Decodificador/remove.h.c" "CMakeFiles/C.dir/remove.h.c.obj" "gcc" "CMakeFiles/C.dir/remove.h.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
