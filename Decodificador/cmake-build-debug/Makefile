@@ -176,30 +176,6 @@ remove.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/remove.c.s
 .PHONY : remove.c.s
 
-remove.h.obj: remove.h.c.obj
-.PHONY : remove.h.obj
-
-# target to build an object file
-remove.h.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/remove.h.c.obj
-.PHONY : remove.h.c.obj
-
-remove.h.i: remove.h.c.i
-.PHONY : remove.h.i
-
-# target to preprocess a source file
-remove.h.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/remove.h.c.i
-.PHONY : remove.h.c.i
-
-remove.h.s: remove.h.c.s
-.PHONY : remove.h.s
-
-# target to generate assembly for a file
-remove.h.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/remove.h.c.s
-.PHONY : remove.h.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -215,9 +191,6 @@ help:
 	@echo ... remove.obj
 	@echo ... remove.i
 	@echo ... remove.s
-	@echo ... remove.h.obj
-	@echo ... remove.h.i
-	@echo ... remove.h.s
 .PHONY : help
 
 

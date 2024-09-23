@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/C.dir/main.c.obj.d"
   "CMakeFiles/C.dir/remove.c.obj"
   "CMakeFiles/C.dir/remove.c.obj.d"
-  "CMakeFiles/C.dir/remove.h.c.obj"
-  "CMakeFiles/C.dir/remove.h.c.obj.d"
   "libC.dll.a"
 )
 

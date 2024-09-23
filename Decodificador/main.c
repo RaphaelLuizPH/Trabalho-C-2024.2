@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
-#include "remove.h.c"
+#include "remove.h"
 
 void decodificar(char *mensagem, int b) {
     int x = 1;
